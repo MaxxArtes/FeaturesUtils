@@ -22,13 +22,38 @@ def diagonalDifference(arr):
 
 if __name__ == '__main__':
 
-    n = int(input().strip())
+    n = int(input('digite o tamanho da sua matriz quadrada ex: (3): ').strip())
 
     arr = []
 
     for _ in range(n):
-        arr.append(list(map(int, input().rstrip().split())))
+        arr.append(list(map(int, input('o valores a serem colocados na matriz ex: (11 2 4): ').rstrip().split())))
 
     result = diagonalDifference(arr)
 
     print(str(result) + '\n')
+
+
+
+#Exemplo de funcionamento:
+#imput:
+#digite o tamanho da sua matriz quadrada ex(3): 3
+
+#o valores a serem colocados na matriz ex: (11 2 4): 11 2 4
+#o valores a serem colocados na matriz ex: (11 2 4): 4 5 6
+#o valores a serem colocados na matriz ex: (11 2 4): 10 8 -12
+
+
+#Matriz inserida:
+
+#11  2  4
+#4   5  6
+#10  8 -12
+
+
+#Diagonal principal: 11 + 5 + (-12) = 4
+#Diagonal secundária: 4 + 5 + 10 = 19
+#Diferença absoluta entre as diagonais: |4 - 19| = 15
+
+#print do resultado:
+#15
