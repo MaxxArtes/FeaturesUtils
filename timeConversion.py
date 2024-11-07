@@ -1,5 +1,3 @@
-#!/bin/python3
-
 def timeConversion(s):
     hora = s[:2]
     minutos = s[2:8]  # Parte :MM:SS
