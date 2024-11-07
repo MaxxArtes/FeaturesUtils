@@ -1,0 +1,34 @@
+import math
+import os
+import random
+import re
+import sys
+
+
+
+def diagonalDifference(arr):
+    # Inicializamos as somas das diagonais
+    diagonal_principal = 0
+    diagonal_secundaria = 0
+    
+    # Iterando sobre a matriz
+    n = len(arr)
+    for i in range(n):
+        diagonal_principal += arr[i][i]
+        diagonal_secundaria += arr[i][n - 1 - i]
+        
+    return abs(diagonal_principal - diagonal_secundaria)
+        
+
+if __name__ == '__main__':
+
+    n = int(input().strip())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    print(str(result) + '\n')
