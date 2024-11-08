@@ -1,4 +1,4 @@
-_______________FEATURESUTILS___________________
+#FEATURESUTILS#
 
 FeaturesUtils é uma coleção de utilitários práticos para conversões e manipulação de dados, criada para facilitar o acesso a soluções reutilizáveis. Ideal para quem deseja ter scripts prontos para conversão de tempo e outros recursos úteis.
 
