@@ -5,7 +5,7 @@ dados, criada para facilitar o acesso a
 soluções reutilizáveis. Ideal para quem
 deseja #ter scripts prontos para conversão de tempo e #outros recursos úteis.
 
---------------Funcionalidades--------------
+## Funcionalidades
 
 1. Conversão de Horário: Converte horários de 12 horas (AM/PM) para o formato de 24 horas.
 
