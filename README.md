@@ -5,7 +5,7 @@ dados, criada para facilitar o acesso a
 soluções reutilizáveis. Ideal para quem
 deseja #ter scripts prontos para conversão de tempo e #outros recursos úteis.
 
-## Funcionalidades
+### Funcionalidades
 
 1. Conversão de Horário: Converte horários de 12 horas (AM/PM) para o formato de 24 horas.
 
@@ -14,6 +14,7 @@ deseja #ter scripts prontos para conversão de tempo e #outros recursos úteis.
 3. plusMinus: Calcula as proporções de números positivos, negativos e zeros em um array.
 
 4. lonelyinteger: encontra o número que aparece uma única vez em um array onde todos os outros números aparecem duas vezes. O problema é resolvido utilizando a operação XOR, que cancela os números que aparecem duas vezes, deixando apenas o número solitário.
+
 
 
 Pré-requisitos
